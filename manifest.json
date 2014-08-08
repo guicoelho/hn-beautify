@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "HN Beautify",
+  "description": "This extension makes HN more readable and pleasant.",
+  "version": "1.0",
+  "icons": {"128": "icon.png" },  
+  "content_scripts": [
+    {
+      "matches": ["*://news.ycombinator.com/",
+                  "*://news.ycombinator.com/new*",
+                  "*://news.ycombinator.com/show",
+                  "*://news.ycombinator.com/ask"],
+      "css": ["styles.css"]
+    }
+  ]
+}
