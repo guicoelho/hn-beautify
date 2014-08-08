@@ -3,7 +3,7 @@
 
   "name": "HN Beautify",
   "description": "This extension makes HN more readable and pleasant.",
-  "version": "1.0",
+  "version": "1.01",
   "icons": {"128": "icon.png" },  
   "content_scripts": [
     {

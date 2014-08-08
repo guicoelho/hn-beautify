@@ -81,15 +81,14 @@ body > center > table > tbody > tr:nth-of-type(3) tr:nth-of-type(6n+4) td {
 
 body > center > table > tbody > tr:nth-of-type(3) tr td:first-of-type {
 	text-align: right;
-	float:right;
 	font-size: 0px !important;
 	overflow: hidden;
 	opacity: 0.2;
-	//width: 40px;
+	/* width: 40px; */
 }
 body > center > table > tbody > tr:nth-of-type(3) tr td:first-of-type td {
 	text-align: right;
-	//width: 40px;
+	/* width: 40px; */
 }
 
 /* Upvote */
@@ -110,9 +109,6 @@ body > center > table > tbody > tr:nth-of-type(3) tr:nth-of-type(6n+5) td {
 .subtext a:nth-of-type(2),
 .subtext span {
 	color: #7E7D7D !important;
-}
-.subtext a:first-child {
-	//font-weight: bold;
 }
 .subtext,
 .subtext a,
