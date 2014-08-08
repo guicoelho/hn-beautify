@@ -10,6 +10,7 @@
       "matches": ["*://news.ycombinator.com/",
                   "*://news.ycombinator.com/new*",
                   "*://news.ycombinator.com/show",
+                  "*://news.ycombinator.com/active",
                   "*://news.ycombinator.com/ask"],
       "css": ["styles.css"]
     }
