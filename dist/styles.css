@@ -36,7 +36,7 @@ body > center > table > tbody > tr:first-of-type table{
 	height: 53px;
 }
 .pagetop {
-	color: transparent !important;
+	color: #fff !important;
 }
 
 .pagetop a {
