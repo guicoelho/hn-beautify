@@ -1,0 +1,156 @@
+/* Zebra for improved readability */
+body > center > table > tbody > tr:nth-of-type(3) tr:nth-of-type(6n+1),
+body > center > table > tbody > tr:nth-of-type(3) tr:nth-of-type(6n+2){
+	background-color: #FCFCFC;
+}
+body > center > table > tbody > tr:nth-of-type(3) tr:nth-of-type(6n+4),
+body > center > table > tbody > tr:nth-of-type(3) tr:nth-of-type(6n+5){
+	background-color: #EBE8E8;
+}
+
+/* Remove spacers */
+body > center > table > tbody > tr:nth-of-type(3) tr:nth-of-type(6n+3),
+body > center > table > tbody > tr:nth-of-type(3) tr:nth-of-type(6n){
+	height: 0 !important;
+}
+
+body > center > table > tbody > tr:nth-of-type(2){
+	height: 0 !important;
+}
+
+
+/* Full width */
+body {
+	margin: 0;
+}
+body > center > table {
+	width: 100%;
+	max-width: 1024px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.3);
+	-moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.3);
+	box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.3);	
+}
+
+body > center > table > tbody > tr:first-of-type table{
+	padding: 10px !important;
+	height: 53px;
+}
+.pagetop {
+	color: #ff6600 !important;
+}
+
+.pagetop a {
+	color: #fff !important;
+}
+
+.pagetop > a:last-of-type {
+	text-decoration: underline;
+}
+
+.pagetop {
+	padding-left: 5px;
+}
+
+.pagetop b{
+	padding-right: 40px;
+}
+
+body > center > table > tbody > tr:nth-of-type(3) > td > table {
+	width: 100%;
+}
+
+body > center > table > tbody > tr:first-of-type table td:nth-of-type(3) a{
+	border: 1px solid white;
+	padding: 5px 12px;
+	border-radius: 15px;
+	text-decoration: none;
+}
+body > center > table > tbody > tr:first-of-type table td:nth-of-type(3) a:hover{
+	background-color: rgba(255,255,255,0.3);
+}
+
+
+/** Row styles **/
+/* Title rows */
+body > center > table > tbody > tr:nth-of-type(3) tr:nth-of-type(6n+1) td,
+body > center > table > tbody > tr:nth-of-type(3) tr:nth-of-type(6n+4) td {
+	font-size: 13px !important;
+	padding-top: 10px;
+	padding-bottom: 2px;
+}
+
+body > center > table > tbody > tr:nth-of-type(3) tr td:first-of-type {
+	text-align: right;
+	float:right;
+	font-size: 0px !important;
+	overflow: hidden;
+	opacity: 0.2;
+	//width: 40px;
+}
+body > center > table > tbody > tr:nth-of-type(3) tr td:first-of-type td {
+	text-align: right;
+	//width: 40px;
+}
+
+/* Upvote */
+div.votearrow {
+	background: url(https://raw.githubusercontent.com/driftyco/ionicons/master/png/512/arrow-up-b.png) no-repeat;
+	background-size: 100%;
+	height: 11px;
+	width: 15px;
+	opacity: 0.5;
+}
+
+
+/* Metadata rows*/
+body > center > table > tbody > tr:nth-of-type(3) tr:nth-of-type(6n+2) td,
+body > center > table > tbody > tr:nth-of-type(3) tr:nth-of-type(6n+5) td {
+	padding-bottom: 10px;
+}
+.subtext a:nth-of-type(2),
+.subtext span {
+	color: #7E7D7D !important;
+}
+.subtext a:first-child {
+	//font-weight: bold;
+}
+.subtext,
+.subtext a,
+a.pocket-hn-button {
+	color: #B4B4B4 !important;
+}
+
+/* More button */
+body > center > table > tbody > tr:nth-of-type(3) tr:last-of-type {
+	background-color: transparent !important;
+	vertical-align: middle;
+	height: 50px;
+}
+
+body > center > table > tbody > tr:nth-of-type(3) tr:last-of-type td {
+	padding-bottom: 0 !important;	
+}
+
+body > center > table > tbody > tr:nth-of-type(3) tr:last-of-type a {
+	border: 1px solid #ff6600;
+	color: #ff6600;
+	padding: 5px 12px;
+	border-radius: 15px;
+}
+body > center > table > tbody > tr:nth-of-type(3) tr:last-of-type a:hover {
+	background-color: rgba(255, 102, 0,0.1);
+}
+
+/* Search */
+input[type="text"]{
+	border-radius: 15px;
+	outline: 0;
+	border: 1px solid #FFA66B;
+	padding: 5px 10px;
+	background-color: transparent;
+}
+
+input[type="text"]:focus {
+	border-color: #ff6600;
+}
+
