@@ -9,8 +9,13 @@
     {
       "matches": ["*://news.ycombinator.com/",
                   "*://news.ycombinator.com/new*",
-                  "*://news.ycombinator.com/show",
-                  "*://news.ycombinator.com/ask"],
+                  "*://news.ycombinator.com/show*",
+                  "*://news.ycombinator.com/active*",
+                  "*://news.ycombinator.com/classic*",
+                  "*://news.ycombinator.com/over*",
+                  "*://news.ycombinator.com/best*",
+                  "*://news.ycombinator.com/noobstories*",
+                  "*://news.ycombinator.com/ask*"],
       "css": ["styles.css"]
     }
   ]
